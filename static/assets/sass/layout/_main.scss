@@ -19,7 +19,7 @@
 		background: _palette(bg);
 		border-radius: _size(border-radius);
 		cursor: default;
-		opacity: 0.95;
+		opacity: 1.0;
 		text-align: center;
 
 		@include vendor('transform-origin', '50% 50%');
@@ -68,7 +68,7 @@
 		}
 
 		body.is-loading & {
-			opacity: 0;
-			@include vendor('transform', 'rotateX(15deg)');
+			opacity: 0.0;
+			@include vendor('transform', 'rotateX(20deg)');
 		}
 	}
